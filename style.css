@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: figtree;
+  font-weight: 500;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 10px 10px black;
+}
+
+
+.blog-img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.btn {
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  border-radius: 4px;
+  padding: 5px 15px;
+  font-weight: 850;
+  margin-top: 15px;
+  font-family: figtree;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 7%);
+}
+
+a:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+p {
+  color: hsl(0, 0%, 42%);
+}
+
+.favi {
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
+  font-weight: 850;
+  color: hsl(0, 0%, 7%);
+}
+
+.favi-img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+
+@media (max-width:768px) {
+  .container {
+    max-width: 320px;
+  }
+
+  .blog-img {
+    width: 100%;
+  }
+
+
+}
